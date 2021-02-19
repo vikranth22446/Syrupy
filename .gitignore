@@ -1,3 +1,6 @@
+*.bak
+*.raw
+*.log
 *.pyc
 setup.cfg
 *.egg-info*

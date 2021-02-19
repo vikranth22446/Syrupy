@@ -42,6 +42,9 @@ As mentioned above, Syrupy is a self-contained single-module (single-file) execu
 
     $ sudo python setup.py install
 
+or
+    $ python scripts/setup.py
+
 Usage
 =====
 

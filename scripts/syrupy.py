@@ -401,7 +401,7 @@ def open_file(fpath, mode='r', replace=False, exit_on_fail=True):
                 else:
                     sys.stderr.write('File already exists: %s\n' % full_fpath)
                     sys.stderr.write('Overwrite (y/N)? ')
-                    ok = raw_input()
+                    ok = input()
                     if ok.lower().startswith('y'):
                         return open(full_fpath, mode)
                     else:
